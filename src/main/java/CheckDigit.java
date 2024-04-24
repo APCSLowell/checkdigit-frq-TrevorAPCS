@@ -13,7 +13,7 @@ public class CheckDigit
      if(sv > 6) 
        sv = 6;
      for(int i = 0; i < sv; i++){
-        cd += getDigit(num, i);
+        cd += getDigit(num, i) * 7 - i;
      }
      return getDigit(cd, getNumberOfDigits(cd));
    }
