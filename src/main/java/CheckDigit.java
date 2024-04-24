@@ -28,7 +28,7 @@ public class CheckDigit
    {      
      /* to be implemented in part (b) */
      int num = numWithCheckDigit / 10;
-     return getCheck(num) == numWithCheckDigit % 10;;
+     return getCheck(num) == numWithCheckDigit % 10;
    }    
    
    /** Returns the number of digits in num. */    
