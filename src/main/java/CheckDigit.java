@@ -27,7 +27,7 @@ public class CheckDigit
    public static boolean isValid(int numWithCheckDigit)    
    {      
      /* to be implemented in part (b) */
-     int num = numWithCheckDigits / 10;
+     int num = numWithCheckDigit / 10;
      return getCheck(num) == numWithCheckDigit % 10;;
    }    
    
