@@ -15,7 +15,7 @@ public class CheckDigit
      for(int i = 0; i < sv; 1++){
         cd += getDigit(num, i);
      }
-     return getDigit(cd, getNumberOfDigits(cd);
+     return getDigit(cd, getNumberOfDigits(cd));
    }
  
   /** Returns true if numWithCheckDigit is valid, or false    
